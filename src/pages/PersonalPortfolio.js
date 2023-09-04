@@ -5,10 +5,13 @@ import BannerThree from '../component/banner/BannerThree';
 import ProjectTwo from '../component/project/ProjectTwo';
 import SectionTitle from '../elements/section-title/SectionTitle';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
+
+import FooterTwo from '../common/footer/FooterTwo';
+
 import BrandOne from '../component/brand/BrandOne';
+
 import ProjectThree from '../component/project/ProjectThree';
 import TestimonialTwo from '../component/testimonial/TestimonialTwo';
-import FooterTwo from '../common/footer/FooterTwo';
 import FormThree from '../component/contact/FormThree';
 
 const PersonalPortfolio = () => {
