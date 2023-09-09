@@ -12,7 +12,7 @@ const CaseStudy = () => {
 
     return (
         <>
-        <SEO title="Case Study" />
+        <SEO title="Case Study " />
         <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
@@ -22,8 +22,8 @@ const CaseStudy = () => {
                 styleClass="thumbnail-3"
                 mainThumb="/images/banner/banner-thumb-5.png"
                 />
-                <div className="pt--250 pt_lg--200 pt_md--100 pt_sm--80 case-study-page-area">
-                    <div className="container">
+                <div className="pt--250 pt_lg--200 pt_md--100 pt_sm--80 case-study-page-area ">
+                    <div className="container  ">
                         <CaseStudyProp />
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaDribbble, FaBehance } from "react-icons/fa";
 
 const TestimonialTwo = () => {
     return (
-        <div className="section section-padding-equal">
+        <div className="section section-padding-equal d-none">
             <div className="container">
                 <SectionTitle 
                     subtitle="Testimonial"

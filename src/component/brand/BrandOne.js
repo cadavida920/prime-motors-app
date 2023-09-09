@@ -5,7 +5,7 @@ import BrandItem from './BrandItem';
 
 const BrandOne = () => {
     return (
-        <div className="section section-padding-2 bg-color-dark">
+        <div className="section section-padding-2 bg-color-dark d-none">
         <div className="container">
             <SectionTitle 
                 subtitle="Top Clients"

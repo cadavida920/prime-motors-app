@@ -16,15 +16,7 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
                     </div>
                 </form>
                 <div className="row ">
-                    <div className="col-lg-5 col-xl-6">
-                        <ul className="main-navigation list-unstyled">
-                            <li><Link to={process.env.PUBLIC_URL + "/digital-agency"}>Digital Agency</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/creative-agency"}>Creative Agency</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/personal-portfolio"}>Personal Portfolio</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/home-startup"}>Home Startup</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/corporate-agency"}>Corporate Agency</Link></li>
-                        </ul>
-                    </div>
+            
                     <div className="col-lg-7 col-xl-6">
                         <div className="contact-info-wrap">
                             <div className="contact-inner">
@@ -33,8 +25,8 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
                                     <p>Theodore Lowe, Ap #867-859 <br /> Sit Rd, Azusa New York</p>
                                 </address>
                                 <address className="address">
-                                    <span className="title">We're Available 24/7. Call Now.</span>
-                                    <a href="tel:8884562790" className="tel"><FaPhone /> (888) 456-2790</a>
+                                    <span className="title">Estamos disponibles 24 horas al día, 7 días a la semana. Llame ahora.</span>
+                                    <a href="tel:📲 3146919952" className="tel"><FaPhone /> 📲 3146919952</a>
                                     <a href="tel:12125553333" className="tel"><FaFax /> (121) 255-53333</a>
                                 </address>
                             </div>

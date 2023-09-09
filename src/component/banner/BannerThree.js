@@ -12,10 +12,12 @@ const BannerThree = () => {
                 <div className="col-lg-6">
                     <div className="banner-content">
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={100}>
-                            <span className="subtitle">JOHNATHAN SMITH</span>
+                            <span className="subtitle">JUAN DAVID CADAVID </span>
+                            <span className="subtitle">📲 3146919952 </span>
                         </AnimationOnScroll>
+                        <br></br>
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
-                            <h1 className="title">UI/UX ineraction designer</h1>
+                            <h1 className="title">PRIME-MOTORS</h1>
                         </AnimationOnScroll>
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
                         <div className="btn-group">

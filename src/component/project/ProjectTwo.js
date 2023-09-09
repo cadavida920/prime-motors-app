@@ -8,7 +8,7 @@ const portfolioData = ProjectData;
 
 const ProjectTwo = () => {
     return (
-        <div className="section section-padding-equal bg-color-dark">
+        <div className="section section-padding-equal bg-color-dark d-none">
             <div className="container">
             <SectionTitle 
                 subtitle="Case study"

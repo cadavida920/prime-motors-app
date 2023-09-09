@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Logo from '../../elements/logo/Logo';
 import OffcanvasMenu from './OffcanvasMenu';
 import StickyHeader from './StickyHeader';
-import { FaFacebookF, FaTwitter, FaLinkedin, FaBehance } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import SwitcherHeader from '../../elements/switcher/SwitcherHeader';
 
 
@@ -22,9 +22,9 @@ const HeaderThree = () => {
                     <div className="container">
                         <div className="header-navbar">
                             <div className="header-logo">
-                                <Logo limage="/images/logo.svg"
-                                dimage="/images/logo-3.svg"
-                                simage="/images/logo-2.svg"
+                                <Logo limage="/images/logo-prime-motors-sm.png"
+                                    dimage="/images/logo-prime-motors-sm.png"
+                                    simage="/images/logo-prime-motors-sm.png"
                                 />
                             </div>
                             <div className="header-action">
@@ -33,8 +33,8 @@ const HeaderThree = () => {
                                         <ul className="social-icon-list list-unstyled">
                                             <li><a href="https://facebook.com/"><FaFacebookF /></a></li>
                                             <li><a href="https://twitter.com/"><FaTwitter /></a></li>
-                                            <li><a href="https://www.linkedin.com/"><FaLinkedin /></a></li>
-                                            <li><a href="https://www.behance.net/"><FaBehance /></a></li>
+                                            <li><a href="https://www.instagram.com/primemotorscompraventa/"><FaInstagram /></a></li>
+                                            <li><a href="https://api.whatsapp.com/send/?phone=573146919952&text&type=phone_number&app_absent=0"><FaWhatsapp /></a></li>
                                         </ul>
                                     </li>
 
