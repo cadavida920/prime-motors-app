@@ -15,7 +15,7 @@ const PersonalPortfolio = () => {
 
     return (
         <>
-            <SEO title="Personal Portfolio" />
+            <SEO title="Prime Motors" />
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderThree />
@@ -32,8 +32,8 @@ const PersonalPortfolio = () => {
                             <div className="col-lg-6">
                                 <div className="contact-address mb--30">
                                     <SectionTitle
-                                        subtitle="Need a designer?"
-                                        title="Let’s work together"x
+                                        subtitle="¿Necesitas asesoria?"
+                                        title="Tienes un carro o quieres vender el que tienes"
                                         description=""
                                         textAlignment="heading-light-left"
                                         textColor=""
@@ -56,7 +56,7 @@ const PersonalPortfolio = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="contact-form-box mb--30">
-                                    <h3 className="title">Describe your project</h3>
+                                    <h3 className="title">Escribenos y te contactamos</h3>
                                     <FormThree />
                                 </div>
                             </div>

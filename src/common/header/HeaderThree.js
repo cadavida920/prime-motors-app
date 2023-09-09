@@ -31,8 +31,8 @@ const HeaderThree = () => {
                                 <ul className="list-unstyled">
                                     <li className="header-social-link">
                                         <ul className="social-icon-list list-unstyled">
-                                            <li><a href="https://facebook.com/"><FaFacebookF /></a></li>
-                                            <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                                            <li className='d-none'><a href="https://facebook.com/"><FaFacebookF /></a></li>
+                                            <li className='d-none'><a href="https://twitter.com/"><FaTwitter /></a></li>
                                             <li><a href="https://www.instagram.com/primemotorscompraventa/"><FaInstagram /></a></li>
                                             <li><a href="https://api.whatsapp.com/send/?phone=573146919952&text&type=phone_number&app_absent=0"><FaWhatsapp /></a></li>
                                         </ul>

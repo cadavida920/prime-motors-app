@@ -11,18 +11,14 @@ const BannerThree = () => {
                 <div className="row align-items-center">
                 <div className="col-lg-6">
                     <div className="banner-content">
-                        <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={100}>
-                            <span className="subtitle">JUAN DAVID CADAVID </span>
-                            <span className="subtitle">📲 3146919952 </span>
-                        </AnimationOnScroll>
                         <br></br>
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
                             <h1 className="title">PRIME-MOTORS</h1>
                         </AnimationOnScroll>
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
                         <div className="btn-group">
-                            <a href="https://dribbble.com/axilweb/" className="axil-btn btn-fill-primary btn-large">Latest Work On Dribbble</a>
-                            <Link to={process.env.PUBLIC_URL + "/about-us"} className="about-btn">About Me</Link>
+                            <a href="#" className="axil-btn btn-fill-primary btn-large">Mira nuestros ultimos veihiculos</a>
+                            <Link to={process.env.PUBLIC_URL + "/about-us"} className="about-btn">Conoce mas de nosotros</Link>
                         </div>
                         </AnimationOnScroll>
                     </div>

@@ -6,10 +6,10 @@ const SEO = ( {title} ) => {
     return (
         <>
             <meta charSet="utf-8" />
-            <title>Abstrak | {title}</title>
+            <title>{title}</title>
             <meta name="robots" content="noindex, follow" />
-            <meta name="description" content="Creative Agency, Corporate and Portfolio React JS Template" />
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+            <meta name="description" content="Venta de carros usados en Medellín; compramos, vendemos y financiamos usados en Medellín de todas las marcas y gamas." />
+            <meta name="viewport" content=" width=device-width, initial-scale=1, shrink-to-fit=no" />
         </>
     )
 }
